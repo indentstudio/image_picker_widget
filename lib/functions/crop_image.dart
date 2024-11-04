@@ -12,8 +12,6 @@ Future<File?> cropImage(XFile file, CroppedImageOptions? croppedImageOptions) as
       maxWidth: croppedImageOptions.maxWidth,
       maxHeight: croppedImageOptions.maxHeight,
       aspectRatio: croppedImageOptions.aspectRatio,
-      aspectRatioPresets: croppedImageOptions.aspectRatioPresets,
-      cropStyle: croppedImageOptions.cropStyle,
       compressFormat: croppedImageOptions.compressFormat,
       compressQuality: croppedImageOptions.compressQuality,
       uiSettings: [
